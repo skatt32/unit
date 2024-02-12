@@ -14,5 +14,10 @@ public class CashbackHackServiceTest {
 
     }
 
+    @Test
+    public void  shouldReturnCashbackZeroWith1000() {
+        assertEquals(service.remain(1000), 0);
+    }
+
 
 }
